@@ -12,7 +12,7 @@ Some of them are working perfectly (avg-link might need some adjusts) but, for n
 I decided to minimize function calls to give a brake for the sys stack, it resulted in a 20% per iteration in single-link, for example.
 But 
 
-# Milestones
+# Main goal
 In order to optimize execution time the main goal is implement all three algorithm in parallel, following the priorities:
 - 1st --> NVIDIA Cuda
 - 2nd --> CPU (many logical cores as viable)
