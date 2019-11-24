@@ -20,7 +20,6 @@ def crie_matriz(n_linhas, n_colunas, valor):
     Cria e retorna uma matriz com n_linhas linha e n_colunas
     colunas em que cada elemento é igual ao valor dado.
     '''
-
     matriz = [] # lista vazia
     for i in range(n_linhas):
         # cria a linha i
@@ -52,7 +51,7 @@ except IOError:
     exit()
 
 # Ignorando primeira linha do arquivo
-arquivo_dados.next()
+arquivo_dados.readline()
 
 # Lendo os dados do arquivo
 for line in arquivo_dados:

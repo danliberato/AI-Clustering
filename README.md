@@ -9,8 +9,7 @@ This is an attempt to parallelize 3 algorithms aiming performance only.
 
 # What we already got here?
 Some of them are working perfectly (avg-link might need some adjusts) but, for now, they are very slow.
-I decided to minimize function calls to give a brake for the sys stack, it resulted in a 20% per iteration in single-link, for example.
-But 
+I decided to minimize function calls to give a brake for the sys stack, it improved 20% per iteration in single-link, for example. But still very slow in a dataset of 4000 samples.
 
 # Milestones
 In order to optimize execution time the main goal is implement all three algorithm in parallel, following the priorities:
